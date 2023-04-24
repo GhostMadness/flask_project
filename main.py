@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, request
 from data import db_session
 from data.users import User
 
@@ -9,6 +9,16 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/login')
+def login():
+    return render_template('register.html')
+
+
+@app.route('/casino')
+def casino():
+    return render_template('casino.html')
 
 
 if __name__ == '__main__':
