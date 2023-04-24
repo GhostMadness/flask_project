@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
     <title>ШОТА У АШОТА OFFICAL</title>
 </head>
 <body>
     <div class="website">
-        <img src="images/backgrounds.gif" class="background"/>
+        <img src="{{url_for('static', filename='images/backgrounds.gif')}}" class="background"/>
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand">ШОТА У АШОТА OFFICAL</a>
@@ -30,13 +30,13 @@
         </nav>
 
         <div class="ashot_image_div">
-            <img src="images/ashot.png" class="ashot_image" alt="Ашот ушел забирать товар :)">
+            <img src="{{url_for('static', filename='images/ashot.png')}}" class="ashot_image" alt="Ашот ушел забирать товар :)">
         </div>
         <h1 class="ashot_phrase">Ну, показывай, чем Зона наградила!</h1>
 
         <h3 class="music_go_or_no_txt">Музыка</h3>
         <audio controls loop class="audio_background" id="audio_background_js">
-            <source src="audio/baze.mp3" type="audio/mpeg">
+            <source src="{{url_for('static', filename='audio/baze.mp3')}}" type="audio/mpeg">
         </audio>
         <script>
           var audio = document.getElementById("audio_background_js");
@@ -47,24 +47,24 @@
         <div class="stalker_ashots_products">
             <div class="stalker_ashots_products_first_shelf">
 
-                <img src="images/products/LAYS_ploti.png" class="product_first_one">
+                <img src="{{url_for('static', filename='images/products/LAYS_ploti.png')}}" class="product_first_one">
                 <h3 class="chips_for_ploti_txt">Чипсы с плотью</h3>
 
-                <img src="images/products/hleb.png" class="product_first_two">
+                <img src="{{url_for('static', filename='images/products/hleb.png')}}" class="product_first_two">
                 <h3 class="hleb_txt">Хлеб</h3>
 
-                <img src="images/products/tushonka.png" class="product_first_three">
+                <img src="{{url_for('static', filename='images/products/tushonka.png')}}" class="product_first_three">
                 <h3 class="tushonka_txt">"Радость туриста"</h3>
             </div>
 
             <div class="stalker_ashots_products_second_shelf">
-                <img src="images/products/aptechka.png" class="product_second_one">
+                <img src="{{url_for('static', filename='images/products/aptechka.png')}}" class="product_second_one">
                 <h3 class="aptechka_txt">Аптечка</h3>
 
-                <img src="images/products/aptechka_blue.png" class="product_second_two">
+                <img src="{{url_for('static', filename='images/products/aptechka_blue.png')}}" class="product_second_two">
                 <h3 class="aptechka_blue_txt">Армейская Аптечка</h3>
 
-                <img src="images/products/aptechka_geltaia.png" class="product_second_three">
+                <img src="{{url_for('static', filename='images/products/aptechka_geltaia.png')}}" class="product_second_three">
                 <h3 class="aptechka_geltaia_txt">Научная Аптечка</h3>
             </div>
         </div>
