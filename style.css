@@ -1,0 +1,197 @@
+.website {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.background {
+    background-image:url('images/backgrounds.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    position: fixed;
+    height:100%;
+    width:100%;
+}
+.container-fluid {
+    align: center;
+}
+
+.ashot_image_div {
+    height: auto;
+    position: absolute;
+    top: 100;
+    left: 0;
+}
+
+@font-face {
+	font-family: 'AmazS.T.A.L.K.E.R.v.3.0';
+	src: local('AmazS.T.A.L.K.E.R.v.3.0'),
+		url(amazs_t_a_l_k_e_r_v_3_0.ttf);
+}
+
+.ashot_phrase {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 420px;
+    top: 100px;
+    width: 1000px;
+}
+
+.audio_background {
+    position: absolute;
+    left: 1250px;
+    top: 1px;
+    width: 100px;
+}
+
+.music_go_or_no_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 50px;
+    position: absolute;
+    left: 1150px;
+    top: 1px;
+    color: white;
+    height: 10px;
+}
+
+.stalker_ashots_products_first_shelf {
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+
+.products_headings {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 100px;
+    position: absolute;
+    top: 380px;
+    left: 500px;
+    color: white;
+}
+
+.product_first_one {
+    position: absolute;
+    top: 400px;
+    width: 100px;
+    left: 200px;
+}
+
+.chips_for_ploti_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 30px;
+    position: absolute;
+    top: 510px;
+    width: 100px;
+    left: 220px;
+    color: white;
+}
+
+.product_first_two {
+    position: absolute;
+    top: 400px;
+    width: 250px;
+    left: 350px;
+}
+
+.hleb_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 40px;
+    position: absolute;
+    top: 510px;
+    width: 100px;
+    left: 450px;
+    color: white;
+}
+
+.product_first_three {
+    position: absolute;
+    top: 380px;
+    width: 150px;
+    left: 650px;
+}
+
+.tushonka_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 30px;
+    position: absolute;
+    top: 510px;
+    width: 100px;
+    left: 695px;
+    color: white;
+}
+
+.product_second_one {
+    position: absolute;
+    top: 650px;
+    width: 200px;
+    left: 340px;
+}
+
+.aptechka_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 30px;
+    position: absolute;
+    top: 830px;
+    width: 100px;
+    left: 420px;
+    color: white;
+}
+
+.product_second_two {
+    position: absolute;
+    top: 610px;
+    width: 270px;
+    left: 520px;
+}
+
+.aptechka_blue_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 30px;
+    position: absolute;
+    top: 820px;
+    width: 100px;
+    left: 620px;
+    color: white;
+}
+
+.product_second_three {
+    position: absolute;
+    top: 685px;
+    width: 180px;
+    left: 810px;
+}
+
+.aptechka_geltaia_txt {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 30px;
+    position: absolute;
+    top: 815px;
+    width: 100px;
+    left: 880px;
+    color: white;
+}
+
+.rectangle {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 900px;
+    background-color: rgb(20, 18, 17);
+}
+
+.end_make_project{
+    top: 100px;
+}
+
+.end_contact_number {
+    top: 100px;
+}
+
+.end_pls_give_money {
+    position: absolute;
+    left: 88%;
+    top: 1030px;
+}
