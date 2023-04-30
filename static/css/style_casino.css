@@ -1,0 +1,44 @@
+.website {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.background {
+    background-image:url('images/backgrounds_casino.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    position: fixed;
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+	font-family: 'AmazS.T.A.L.K.E.R.v.3.0';
+	src: local('AmazS.T.A.L.K.E.R.v.3.0'),
+		url(amazs_t_a_l_k_e_r_v_3_0.ttf);
+}
+
+.go_broo {
+    font-family: "AmazS.T.A.L.K.E.R.v.3.0";
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 500px;
+}
+
+.audio_sidr {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.glv_str_btn {
+    position: absolute;
+    left: 580px;
+    top: 260px;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+    background-color: black;
+}

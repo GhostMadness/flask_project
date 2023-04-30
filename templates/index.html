@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>ШОТА У АШОТА OFFICAL</title>
+</head>
+<body>
+    <div class="website">
+        <img src="{{url_for('static', filename='images/backgrounds.gif')}}" class="background"/>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand">ШОТА У АШОТА OFFICAL</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="{{url_for('index')}}">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="{{url_for('register')}}">Вход/Регистрация</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="{{url_for('casino')}}">Казино</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="ashot_image_div">
+            <img src="{{url_for('static', filename='images/ashot.png')}}" class="ashot_image" alt="Ашот ушел забирать товар :)">
+        </div>
+        <h1 class="ashot_phrase">Ну, показывай, чем Зона наградила!</h1>
+
+        <h3 class="music_go_or_no_txt">Музыка</h3>
+        <audio controls loop class="audio_background" id="audio_background_js">
+            <source src="{{url_for('static', filename='audio/baze.mp3')}}" type="audio/mpeg">
+        </audio>
+        <script>
+          var audio = document.getElementById("audio_background_js");
+          audio.volume = 0.2;
+        </script>
+
+        <h1 class="products_headings">СПИСОК ТОВАРОВ</h1>
+        <div class="stalker_ashots_products">
+            <div class="stalker_ashots_products_first_shelf">
+
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/LAYS_ploti.png')}}" class="product_first_one"></a>
+                <h3 class="chips_for_ploti_txt">Чипсы с плотью</h3>
+
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/hleb.png')}}" class="product_first_two"></a>
+                <h3 class="hleb_txt">Хлеб</h3>
+
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/tushonka.png')}}" class="product_first_three"></a>
+                <h3 class="tushonka_txt">"Радость туриста"</h3>
+            </div>
+
+            <div class="stalker_ashots_products_second_shelf">
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/aptechka.png')}}" class="product_second_one"></a>
+                <h3 class="aptechka_txt">Аптечка</h3>
+
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/aptechka_blue.png')}}" class="product_second_two"></a>
+                <h3 class="aptechka_blue_txt">Армейская Аптечка</h3>
+
+                <a href="http://risovach.ru/upload/2018/02/mem/bandit-iz-igry-stalker_169665707_orig_.jpg"><img src="{{url_for('static', filename='images/products/aptechka_geltaia.png')}}" class="product_second_three"></a>
+                <h3 class="aptechka_geltaia_txt">Научная Аптечка</h3>
+            </div>
+        </div>
+        <div class="rectangle">
+            <font size="3" color="white" face="Impact" class="end_text_one">Яндекс.Лицей</font>
+            <div class="end_make_project">
+                <font size="3" color="white" face="Arial">Проект выполняли:</font>
+                <font size="3" color="white" face="Arial">Фомин Дмитрий(Фронтенд)</font>
+                <font size="3" color="white" face="Arial">и</font>
+                <font size="3" color="white" face="Arial">Артем Уваров(Бекенд)</font>
+            </div>
+            <div class="end_contact_number">
+                <font size="3" color="white" face="Arial">Контакты:</font>
+                <font size="3" color="white" face="Arial">8-988-768-##-##;</font>
+                <font size="3" color="white" face="Arial">8-938-312-##-##;</font>
+            </div>
+        </div>
+        <font size="3" color="white" face="Arial" class="end_pls_give_money">©Нам никто не платил</font>
+    </div>
+</body>
+</html>

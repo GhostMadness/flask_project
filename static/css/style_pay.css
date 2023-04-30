@@ -1,0 +1,20 @@
+.website {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 10px;
+    width: 450px;
+    padding:50px 0;
+    background: white;
+    top: 25%;
+    left: 35%;
+}
